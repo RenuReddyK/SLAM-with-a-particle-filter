@@ -12,6 +12,8 @@ The body frame is at the top of the head (X axis pointing forwards, Y axis point
 ## Dataset:
 Utilized the data collected from a humanoid named THOR that was built at Penn and UCLA [video link](https://www.youtube.com/watch?v=JhWYYuba1nE). Used 4 different trajectories of the robot in Towne Building at Penn.
 
+
+
 # Map 1
 Trajectory using onboard odometry | Trajectory using PF
 --- | --- 
