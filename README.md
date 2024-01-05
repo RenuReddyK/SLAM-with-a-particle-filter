@@ -12,7 +12,9 @@ The body frame is at the top of the head (X axis pointing forwards, Y axis point
 ## Dataset:
 Utilized the data collected from a humanoid named THOR that was built at Penn and UCLA [video link](https://www.youtube.com/watch?v=JhWYYuba1nE). Used 4 different trajectories of the robot in Towne Building at Penn.
 
-# Partical filter plots
+# Binarized version of the map with Partical filter plots
+Cyan trajectory = Odometry Trajectory 
+Red trajectory =  Trajectory using Partical filter with the largest weight at each time-step
 ## Map 1 
 <p align="center">
   <img width="1069" alt="Screenshot 2024-01-05 at 9 20 28 AM" src="https://github.com/RenuReddyK/SLAM-with-a-particle-filter/assets/68454938/2c355a47-3697-4230-91f0-6e9377a77385">
