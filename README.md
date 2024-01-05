@@ -12,13 +12,24 @@ The body frame is at the top of the head (X axis pointing forwards, Y axis point
 ## Dataset:
 Utilized the data collected from a humanoid named THOR that was built at Penn and UCLA [video link](https://www.youtube.com/watch?v=JhWYYuba1nE). Used 4 different trajectories of the robot in Towne Building at Penn.
 
+# Map 1
+Trajectory using onboard odometry | Trajectory using PF
+--- | --- 
 ![](https://github.com/RenuReddyK/SLAM-with-a-particle-filter/assets/68454938/b36ced4c-a952-4cf8-8b81-e5b94819511d")| ![](https://github.com/RenuReddyK/SLAM-with-a-particle-filter/assets/68454938/2734e53f-901e-405d-96b9-ce22f5c8f1af)
 
-
+# Map 2
+Trajectory using onboard odometry | Trajectory using PF
+--- | --- 
 ![](https://github.com/RenuReddyK/SLAM-with-a-particle-filter/assets/68454938/a01f376d-c14a-45ca-9028-d95ce8cd5a1e")| ![](https://github.com/RenuReddyK/SLAM-with-a-particle-filter/assets/68454938/d26f035a-956c-4519-b11d-62f20d6d6123)
 
+# Map 3
+Trajectory using onboard odometry | Trajectory using PF
+--- | --- 
 ![](https://github.com/RenuReddyK/SLAM-with-a-particle-filter/assets/68454938/700faa0e-5fd4-4865-8cb0-bb7a693bbb34")| ![](https://github.com/RenuReddyK/SLAM-with-a-particle-filter/assets/68454938/96f64c78-98b8-49b5-af5e-768eb5ec1578)
 
+# Map 4
+Trajectory using onboard odometry | Trajectory using PF
+--- | --- 
 ![](https://github.com/RenuReddyK/SLAM-with-a-particle-filter/assets/68454938/3b256a85-78b4-42a8-92b7-cc972474f6a6")| ![](https://github.com/RenuReddyK/SLAM-with-a-particle-filter/assets/68454938/aa78c8d2-838f-498a-ba7a-eaeedaab3038)
 
 
