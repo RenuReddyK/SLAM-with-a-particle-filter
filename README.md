@@ -12,4 +12,4 @@ The body frame is at the top of the head (X axis pointing forwards, Y axis point
 ## Dataset:
 Utilized the data collected from a humanoid named THOR that was built at Penn and UCLA [video link](https://www.youtube.com/watch?v=JhWYYuba1nE). Used 4 different trajectories of the robot in Towne Building at Penn.
 
-
+![](https://github.com/RenuReddyK/SLAM-with-a-particle-filter/assets/68454938/b36ced4c-a952-4cf8-8b81-e5b94819511d")| ![](https://github.com/RenuReddyK/SLAM-with-a-particle-filter/assets/68454938/2734e53f-901e-405d-96b9-ce22f5c8f1af)
