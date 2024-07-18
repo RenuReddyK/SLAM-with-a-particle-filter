@@ -57,19 +57,7 @@ Trajectory using onboard odometry | Trajectory using PF
 Trajectory using onboard odometry | Trajectory using PF
 --- | --- 
 ![](https://github.com/RenuReddyK/SLAM-with-a-particle-filter/assets/68454938/3b256a85-78b4-42a8-92b7-cc972474f6a6")| ![](https://github.com/RenuReddyK/SLAM-with-a-particle-filter/assets/68454938/aa78c8d2-838f-498a-ba7a-eaeedaab3038)
-
-
-
-| **Color**   | **Condition**                                                                                                                                         | **Blink Status: `true`**                                                         | **Blink Status: `false`**                                                        |
-|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| **Red**     | All of the following parameters are `true`: `/feedback/fault`, `/feedback/safety_stop`, `/feedback/estop`                                           | Vehicle lights are set to Red with blinking enabled.                             | Not applicable.                                                                   |
-| **Blue**    | `/feedback/maintenance` is `true`, and Red conditions are not met.                                                                                  | Vehicle lights are set to Blue with blinking disabled.                            | Vehicle lights are set to Blue with blinking disabled.                            |
-| **Yellow**  | `/feedback/warning` is `true`, and neither Red nor Blue conditions are met.                                                                        | Vehicle lights are set to Yellow with blinking enabled.                          | Vehicle lights are set to Yellow with blinking disabled.                          |
-| **Cyan**    | `/feedback/standby` is `true`, and none of the above conditions are met.                                                                           | Vehicle lights are set to Cyan with blinking disabled.                           | Vehicle lights are set to Cyan with blinking disabled.                            |
-| **Green**   | `/feedback/normal` is `true`, `vehicle_in_auto_` is `true`, and `vehicle_in_red_zone_` is `true`.                                                   | Vehicle lights are set to Green with blinking enabled, and `wait_lights_msg_.data` is set to `true`. | Vehicle lights are set to Green with blinking disabled.                          |
-| **Green**   | `/feedback/normal` is `true`, `vehicle_in_auto_` is `true`, but `vehicle_in_red_zone_` is `false`.                                                   | Not applicable.                                                                   | Vehicle lights are set to Green with blinking disabled.                          |
-| **Magenta** | Either `/feedback/teleop_degrade` or `/feedback/teleop` is `true`, and `vehicle_in_teleop_` is `true`.                                                | Vehicle lights are set to Magenta with blinking enabled if `vehicle_not_operable_` is `true`; otherwise, blinking is disabled. | Vehicle lights are set to Magenta with blinking disabled if `vehicle_not_operable_` is `false`. |
-| **White**   | All other conditions are not met.                                                                                                                     | Not applicable.                                                                   | Vehicle lights are set to White with blinking disabled.                           |
+                                                                                                                             | **Blink Status: `true`**                                        
 
 
 
